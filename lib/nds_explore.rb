@@ -13,5 +13,5 @@ def print_first_directors_movie_titles
   # [{name: "director", movies: [{title: "film title"}, {title: "another film title"]}]
   
   db = directors_database
-  puts db
+  movies = db[0][:movies]
 end
