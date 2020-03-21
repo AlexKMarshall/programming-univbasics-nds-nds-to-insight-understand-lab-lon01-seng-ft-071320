@@ -13,6 +13,6 @@ def print_first_directors_movie_titles
   # [{name: "director", movies: [{title: "film title"}, {title: "another film title"]}]
   
   db = directors_database
-  movies = db[0][:movies]
+  movies = directors_database[0][:movies]
   puts movies
 end
