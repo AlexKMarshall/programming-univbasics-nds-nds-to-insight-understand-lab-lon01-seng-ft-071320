@@ -12,6 +12,6 @@ def print_first_directors_movie_titles
   #pp directors_database
   # [{name: "director", movies: [{title: "film title"}, {title: "another film title"]}]
   
-  movies = directors_database[0][movies]
-  puts movies
+  db = directors_database
+  puts db
 end
