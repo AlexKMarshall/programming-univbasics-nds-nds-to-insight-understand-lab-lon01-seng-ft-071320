@@ -14,4 +14,5 @@ def print_first_directors_movie_titles
   
   db = directors_database
   movies = db[0][:movies]
+  puts movies
 end
