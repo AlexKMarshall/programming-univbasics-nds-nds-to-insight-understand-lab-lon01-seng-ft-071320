@@ -9,9 +9,6 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  #pp directors_database
-  # [{name: "director", movies: [{title: "film title"}, {title: "another film title"]}]
-  
   movies = directors_database[0][:movies]
   movies.count.times do |index|
     puts movies[index][:title]
